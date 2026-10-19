@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+/* ბარათების გარე ყუთი - აქ გვჭირდება flex */
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* ერთი ბარათი */
+.card {
+    width: 250px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 170px;
+    height: 180px;
+    object-fit: contain;
+    margin-top: 30px;
+}
+
+.card h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    color: #111;
+}
+
+.text {
+    font-size: 15px;
+    color: #a0aab4;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222b38;
+    margin-top: 15px;
+}
+
+/* ვარსკვლავები */
+.stars {
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.on {
+    color: #ff9f4a;
+}
+
+.off {
+    color: black;
+}
+
+/* ღილაკები */
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: #0e86a3;
+}
+
+.btn2 {
+    background-color: #3f3d6e;
+}
+
+.btn3 {
+    background-color: #0a0a0a;
+}
+
+.btn4 {
+    background-color: #ff9f4a;
+}
